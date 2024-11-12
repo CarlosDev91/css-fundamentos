@@ -1,0 +1,22 @@
+div {
+    border: 1px solid#000;
+    width: 30%;
+}
+
+.Box {
+    width: 100%;
+    display: flex;
+    /*Eixo principal se moverá ao longo da linha > da deireita
+    para a esquerda em Row-reverse*/
+    flex-direction: row;
+    /*flex-direction: row-reverse; */
+
+    /* Para uma quebra automatica de linha use
+    a propriedade flex-wrap;*/
+    flex-wrap: wrap;
+}
+
+.box figure img {
+width: 20px;
+height: auto;
+}
