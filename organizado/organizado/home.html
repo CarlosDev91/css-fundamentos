@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_home.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>Loja de Motos</title>
+</head>
+
+<body>
+    <!-- Inicio Menu -->
+
+    <header id="header">
+        <a id="logo" href="./home.html"><img src=".//imgs/imagem 001.jpg" alt="logo Coffe Motos"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <!-- Em button estamos tratando a função do menu hamburguer -->
+            <!-- Início opções Menu -->
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="./home.html">Home</a></li>
+                <li><a class="linkMenu" href="#">Quem somos</a></li>
+                <li><a class="linkMenu" href="#">Produto</a></li>
+                <li><a class="linkMenu" href="#">Contato</a></li>
+                <li><a class="linkMenu" href="#">#Blog</a></li>
+            </ul>
+            <!-- Fim opções de Menu-->
+        </nav>
+
+    </header>
+    <!-- mexer daqui para baixo-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="./imgs/brutale-1000rr-2021-17.jpg" class="d-block w-100" alt="Imagem do jesko attack">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./imgs/imagem 2.jpeg" class="d-block w-100" alt="Imagem do pagani huayra">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./imgs/imagen 3.jpg" class="d-block w-100"
+                    alt="Imagem do bugatti tourbillon">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./imgs/imagem 4.jpeg" class="d-block w-100" alt="Imagem do sallen S7">
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+    </div>
+    <!--Fim do carrosel  -->
+
+
+
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./imgs/imagem 5.jpg" alt="Logo">
+
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="text-banner d-none d-md-block">
+                        <h1>Conheça o lançamento dos motos na loja</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <a href="#">Saiba mais!</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <section class="col-12">
+                    <h2>Coleções de motos</h2>
+                    <p>Lorem aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                </section>
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="#"><img src="./imgs/imagem 6.jpg"
+                                alt="bugatti tourbillon"></a>
+                        <figcaption>Modelo novo<br>$800000</figcaption>
+                    </figure>
+                    <div class="col-6 col-md-2 pr-0">
+                        <figure>
+                            <a href="#"><img src="./imgs/imagem 7.jpg" alt="sallen S7"></a>
+                            <figcaption>Modelo novo<br>$900000</figcaption>
+                        </figure>
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./imgs/imagem 8.jpg" alt="pagani huayra"></a>
+                                <figcaption>Modelo novo<br>$1000000</figcaption>
+                            </figure>
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="#"><img src="./imgs/imagem 9.jpeg" alt="Jesko attack"></a>
+                                    <figcaption>Modelo novo<br>$850000</figcaption>
+                                </figure>
+                                <div class="col-6 col-md-2 pr-0">
+                                    <figure>
+                                        <a href="#"><img src="./imgs/imagem 10.jpg"
+                                                alt="Maserati MC20"></a>
+                                        <figcaption>Modelo novo<br>$100000</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a id="saiba-mais" href="#">Saiba mais!</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="novidades" id="novidades-mobile">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <section class="text-body">
+                                        <h2>Conheça as novidades</h2>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        <a class="btn-banner" href="#" target="_blank">Saiba mais</a>
+                                    </section>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure>
+                                        <img class="img-fluid"
+                                            src="./imgs/imagem 11.jpg"
+                                            alt="mercedes amg gt 63 pro">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="galeria d-flex align-itens-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <section class="texto-galeria">
+                                        <h2>Conheças nossas opções</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </section>
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 12.jpg"
+                                        alt="Alfa Romeo 8C Competizione">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 13.jpeg" alt="Rimac Nevera">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 14.jpg"
+                                        alt="Lotus Evija X">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 15.jpg" alt="BMW i8">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 16.jpeg"
+                                        alt="Rolls-Royce Sweptail">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 17.jpg"
+                                        alt="Bentley Continental GT Speed">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 18.jpeg"
+                                        alt="Porsche 918 Spyder">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 19.jpeg"
+                                        alt="Koenigsegg Regera">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid"
+                                        src="./imgs/imagem 20.jpg"
+                                        alt="Lamborghini Centenario">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 21.jpeg" alt="Aston Martin Valkyrie">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 22.jpg" alt="McLaren P1">
+                                </div>
+                                <div class="gallery col-6 col-md-3">
+                                    <img class="img-fluid" src="./imgs/imagem 23.jpeg"
+                                        alt="Ferrari LaFerrari">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="whatsapp">
+                        <div class="container-grid logo-whats">
+                            <a href="#" target="_blank">
+                                <img class="pulse" src="./imgs/imagem 24.jpeg"
+                                    alt="Entre em contato via nosso canal do whatsapp">
+                            </a>
+                        </div>
+                    </div>
+                    <footer class="rodape">
+                        <div class="container">
+                            <div class="row m-0">
+                                <div class="col-md-4" id="logo-rodape">
+                                    <figure>
+                                        <img src="./imgs/imagem 25.jpg"
+                                            alt="logo">
+                                    </figure>
+                                </div>
+
+
+
+                                <div class="col-md-4">
+                                    <div class="info-contato">
+                                        <p><strong>email:</strong></p>
+                                        <p>motos@motinhas.com</p><br>
+                                        <p><strong>endereco</strong></p>
+                                        <p>casa, 501</p><br>
+                                        <p><strong>Telefone:</strong></p>
+                                        <p>15988202899</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <figure class="redes-sociais">
+                                        <a href="http://www.facebook.com" target="_blank"><img
+                                                src="./imgs/rede_social/face.png" alt="facebook"></a>
+                                        <a href="http://www.instagram.com" target="_blank"><img
+                                                src="./imgs/rede_social/insta.png" alt="instagram"></a>
+                                        <a href="http://www.youtube.com" target="_blank"><img
+                                                src="./imgs/rede_social/youtube.png" alt="youtube"></a>
+                                    </figure>
+                                    <br>
+                                    <a class="linkFooter" href="#">home</a>
+                                    <a class="linkFooter" href="#">quem somos</a>
+                                    <a class="linkFooter" href="#">produtos</a>
+                                    <a class="linkFooter" href="#">contato</a>
+                                    <a class="linkFooter" href="#">blog</a>
+                                </div>
+                                <div class="col-12">
+                                    <p class="direitos">todos os direitos reservados &copy; | Loja de motos | 2024 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+</body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+</html>
+<!-- -->
+</body>
